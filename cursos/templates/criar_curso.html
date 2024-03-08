@@ -1,4 +1,4 @@
-{% extends "inicio.html" %}
+﻿{% extends "inicio.html" %}
 {% load bootstrap5 %}
 {% block principal %}
 
@@ -14,12 +14,6 @@
     <button type="submit" class="btn btn-primary btn-block">Inserir curso</button>  
     
   </form>
-  
-  <br>
-  <h1>Cursos Cadastrados</h1><br>
-  {% for curso in cursos %}
-    <p>{{curso.titulo}}</p>
-  {% endfor %}
 
   {% endif %}
 {% endblock %}
