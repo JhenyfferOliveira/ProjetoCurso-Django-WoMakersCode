@@ -13,3 +13,4 @@ O desafio faz parte do bootcamp de Back-end Python e Django da **WoMakersCode**,
 
 ## Veja a aplicação em funcionamento
 
+https://github.com/JhenyfferOliveira/app-Django-WoMakersCode/assets/140458083/4f36b25e-9da2-45ac-9be2-9681237bed63
