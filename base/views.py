@@ -1,22 +1,24 @@
 from django.shortcuts import render
-from django.http import HttpResponse # responsável pela comunicação com a internet
-from base.forms import CadastroForm
-from base.models import Cadastro
+from cursos.forms import CursoForm
+from django.views.decorators.cache import cache_page
+from cursos.models import Curso
 
 # Create your views here.
-# Duas visualizações do sistema
-# URL - caminho
-def inicio(request):
-    return render(request, 'inicio.html') #renderizar
+def inicio_curso(request):
+    cursos = Curso.objects.all()
+    return render(request, 'inicio_curso.html', {'cursos': cursos})
 
-def cadastro(request):
+@cache_page(30)
+def criar_curso(request):
+    cursos = Curso.objects.all()
+    form = CursoForm(request.POST or None)
     sucesso = False
-    form = CadastroForm(request.POST or None)
     if form.is_valid():
-        sucesso = True
         form.save()
-    contexto ={
+        sucesso = True
+    contexto = {
         'form': form,
-        'sucesso': sucesso
+        'sucesso': sucesso,
+        'cursos': cursos,
     }
-    return render(request, 'cadastro.html', contexto) #renderizar
+    return render(request, 'criar_curso.html', contexto)
