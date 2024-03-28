@@ -1,4 +1,4 @@
-﻿# App com Framework Django
+﻿# Aplicação com Framework Django
 ### Squad Hady Lamarr
 
 Este projeto consiste em um exercício de criação de uma aplicação com Django e contato com banco de dados por meio da linguagem Python. Esse desafio foi feito de forma individual.
