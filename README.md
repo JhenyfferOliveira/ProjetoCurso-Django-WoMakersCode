@@ -1,8 +1,8 @@
 ﻿# Site de Cursos – Projeto com Framework Django
 
-Código desenvolvido como um exercício de criação de uma aplicação de Cursos com o framework Django visando treinar a interação com banco de dados e renderização através da linguagem Python. 
+Exercício de criação de uma aplicação de Cursos com o framework Django visando treinar a interação com banco de dados e renderização através da linguagem Python. O projeto foi realizado em março de 2024.
 
-Foi desenvolvido como parte do desafio individual do bootcamp de Back-end Python e Django da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**. O projeto foi realizado em fevereiro de 2024.
+Código desenvolvido como parte do desafio individual para o bootcamp **Back-end Python e Django** da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**. 
 
 ---
 
