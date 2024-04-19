@@ -11,7 +11,7 @@ Foi desenvolvido como parte do desafio individual do bootcamp de Back-end Python
 + **Modelagem Orientada a Objetos com Django:** O sistema foi modelado utilizando os princípios de POO oferecidos pelo Django, incluindo a definição de modelos para representar elementos como cursos.
 + **Configuração do Admin do Django:** Os recursos administrativos do Django foram configurados para facilitar a gestão dos cursos cadastrados.
 + **Implementação de Rotas:** Algumas rotas foram adicionadas ao projeto para possibilitar a navegação entre as seções disponíveis.
-+ **Integração com Banco de Dados:** A aplicação utiliza um banco de dados para armazenar e gerenciar informações como detalhes dos cursos, data e nome.
++ **Integração com Banco de Dados:** A aplicação utiliza um banco de dados para armazenar e gerenciar informações como informações de cadastro e detalhes dos cursos.
 
 ---
 
