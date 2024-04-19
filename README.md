@@ -1,4 +1,4 @@
-﻿# Aplicação com Framework Django
+﻿# Site de Cursos – Projeto com Framework Django
 
 Código desenvolvido como um exercício de criação de uma aplicação de Cursos com o framework Django visando treinar a interação com banco de dados e renderização através da linguagem Python. 
 
