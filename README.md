@@ -1,9 +1,19 @@
 ﻿# Aplicação com Framework Django
 
-Este projeto consiste em um exercício de criação de uma aplicação com Django e contato com banco de dados por meio da linguagem Python. Esse desafio foi feito de forma individual.
+Código desenvolvido como um exercício de criação de uma aplicação de Cursos com o framework Django visando treinar a interação com banco de dados e renderização através da linguagem Python. 
 
-O desafio faz parte do bootcamp de Back-end Python e Django da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**. O projeto foi realizado em fevereiro de 2024.
+Foi desenvolvido como parte do desafio individual do bootcamp de Back-end Python e Django da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**. O projeto foi realizado em fevereiro de 2024.
 
+---
+
+## Características Principais
+
++ **Modelagem Orientada a Objetos com Django:** O sistema foi modelado utilizando os princípios de POO oferecidos pelo Django, incluindo a definição de modelos para representar elementos como cursos.
++ **Configuração do Admin do Django:** Os recursos administrativos do Django foram configurados para facilitar a gestão dos cursos cadastrados.
++ **Implementação de Rotas:** Algumas rotas foram adicionadas ao projeto para possibilitar a navegação entre as seções disponíveis.
++ **Integração com Banco de Dados:** A aplicação utiliza um banco de dados para armazenar e gerenciar informações como detalhes dos cursos, data e nome.
+
+---
 
 ## Ferramentas utilizadas
 
